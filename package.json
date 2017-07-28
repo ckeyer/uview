@@ -1,11 +1,10 @@
 {
-  "name": "iview",
-  "version": "2.0.0",
-  "title": "iView",
+  "name": "ckui",
+  "version": "0.1.2",
+  "title": "ckui",
   "description": "A high quality  UI components Library with Vue.js",
-  "homepage": "http://www.iviewui.com",
   "keywords": [
-    "iview",
+    "ckui",
     "vue",
     "vue.js",
     "component",
@@ -32,13 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iview/iview"
+    "url": "https://github.com/ckui/ckui"
   },
   "author": "Aresn",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iview/iview/issues"
-  },
   "dependencies": {
     "async-validator": "^1.7.1",
     "core-js": "^2.4.1",
