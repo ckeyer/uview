@@ -1,10 +1,10 @@
 {
-  "name": "ckui",
-  "version": "0.1.2",
-  "title": "ckui",
-  "description": "A high quality  UI components Library with Vue.js",
+  "name": "uview",
+  "version": "0.1.0",
+  "title": "uview",
+  "description": "A high quality  UI components Library with Vue.js, fork from iview",
   "keywords": [
-    "ckui",
+    "uview",
     "vue",
     "vue.js",
     "component",
@@ -18,7 +18,7 @@
     "src"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
+    "dev": "webpack-dev-server --open --inline --hot --compress --history-api-fallback --port 8080 --host 0.0.0.0 --config build/webpack.dev.config.js",
     "dist:style": "gulp --gulpfile build/build-style.js",
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js",
     "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckui/ckui"
+    "url": "https://github.com/ckeyer/uview"
   },
   "author": "Aresn",
   "license": "MIT",
